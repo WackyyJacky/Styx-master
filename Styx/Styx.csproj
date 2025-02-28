@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5476A75C-87E7-4EEA-A629-6EDCCCD3BCAD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Styx</RootNamespace>
+    <AssemblyName>Styx</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\StyxLauncher\Resources\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Botting\AutoLogin.cs" />
+    <Compile Include="Botting\Bot.cs" />
+    <Compile Include="Botting\BotConfig.cs" />
+    <Compile Include="Botting\Commands\Combat\CommandKillRadius.cs" />
+    <Compile Include="Botting\Commands\Combat\CommandRestTeleport.cs" />
+    <Compile Include="Botting\Commands\Combat\CommandKill.cs" />
+    <Compile Include="Botting\Commands\Combat\CommandKillAll.cs" />
+    <Compile Include="Botting\Commands\Combat\CommandRestEquip.cs" />
+    <Compile Include="Botting\Commands\Combat\CommandRestWait.cs" />
+    <Compile Include="Botting\Commands\Command.cs" />
+    <Compile Include="Botting\Commands\Combat\CommandKillFor.cs" />
+    <Compile Include="Botting\Commands\Combat\CommandKillAllFor.cs" />
+    <Compile Include="Botting\Commands\IBotCommand.cs" />
+    <Compile Include="Botting\Commands\Item\CommandBuy.cs" />
+    <Compile Include="Botting\Commands\Item\CommandClaimMerge.cs" />
+    <Compile Include="Botting\Commands\Item\CommandMerge.cs" />
+    <Compile Include="Botting\Commands\Item\CommandSell.cs" />
+    <Compile Include="Botting\Commands\Map\CommandJoin.cs" />
+    <Compile Include="Botting\Commands\Map\CommandMoveTo.cs" />
+    <Compile Include="Botting\Commands\Map\CommandNextDungeon.cs" />
+    <Compile Include="Botting\Commands\Map\CommandWaypoint.cs" />
+    <Compile Include="Botting\Commands\Misc\CommandDelay.cs" />
+    <Compile Include="Botting\Commands\Misc\CommandRestart.cs" />
+    <Compile Include="Botting\Commands\Misc\CommandSendPack.cs" />
+    <Compile Include="Botting\Commands\Misc\CommandStop.cs" />
+    <Compile Include="Botting\Commands\Quest\CommandQuestAccept.cs" />
+    <Compile Include="Botting\Commands\Quest\CommandQuestComplete.cs" />
+    <Compile Include="Botting\IBotEngine.cs" />
+    <Compile Include="Botting\Spell.cs" />
+    <Compile Include="Core\Access.cs" />
+    <Compile Include="Core\StyxCheat.cs" />
+    <Compile Include="Core\Loader.cs" />
+    <Compile Include="Core\Mono.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\ChatCommand.cs" />
+    <Compile Include="Tools\FlyCheat.cs" />
+    <Compile Include="Tools\Hooking\HookManager.cs" />
+    <Compile Include="Tools\Hooking\MethodHook.cs" />
+    <Compile Include="Tools\KeyBind.cs" />
+    <Compile Include="Tools\Packets\Sniffer.cs" />
+    <Compile Include="Tools\Packets\Spammer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tools\Grabber.cs" />
+    <Compile Include="Tools\PrivateMembers.cs" />
+    <Compile Include="Tools\Unsafe.cs" />
+    <Compile Include="Tools\World.cs" />
+    <Compile Include="Botting\Commands\Item\CommandUseItem.cs" />
+    <Compile Include="Botting\Commands\Map\CommandInteract.cs" />
+    <Compile Include="UI\BotManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BotManager.Designer.cs">
+      <DependentUpon>BotManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Botting\Commands\Misc\CommandEndStatement.cs" />
+    <Compile Include="Botting\Commands\Map\CommandMoveToMachine.cs" />
+    <Compile Include="Botting\Commands\Map\CommandUseMachine.cs" />
+    <Compile Include="UI\Grabbers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Grabbers.Designer.cs">
+      <DependentUpon>Grabbers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\KeyBinds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\KeyBinds.Designer.cs">
+      <DependentUpon>KeyBinds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\KeyConfig.cs" />
+    <Compile Include="UI\Loaders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Loaders.Designer.cs">
+      <DependentUpon>Loaders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Root.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Root.Designer.cs">
+      <DependentUpon>Root.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Sniffer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Sniffer.Designer.cs">
+      <DependentUpon>Sniffer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Spammer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Spammer.Designer.cs">
+      <DependentUpon>Spammer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Staff.Designer.cs">
+      <DependentUpon>Staff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Botting\Commands\Misc\CommandStatement.cs" />
+    <Compile Include="Util\GameAttach.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BotManager.resx">
+      <DependentUpon>BotManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Grabbers.resx">
+      <DependentUpon>Grabbers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\KeyBinds.resx">
+      <DependentUpon>KeyBinds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Loaders.resx">
+      <DependentUpon>Loaders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Root.resx">
+      <DependentUpon>Root.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Sniffer.resx">
+      <DependentUpon>Sniffer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Spammer.resx">
+      <DependentUpon>Spammer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Staff.resx">
+      <DependentUpon>Staff.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\aq3d bot version\aq3d\aq3d_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\aq3d bot version\aq3d\aq3d_Data\Managed\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\aq3d bot version\aq3d\aq3d_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assembly-CSharp.dll" />
+    <Content Include="Newtonsoft.Json.dll" />
+    <Content Include="UnityEngine.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
