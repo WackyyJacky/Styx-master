@@ -1,0 +1,185 @@
+{
+  "Commands": [
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandJoin, Styx",
+      "MapId": 182,
+      "RequestPrivateInstance": false,
+      "Type": 1,
+      "Cmd": 0,
+      "Text": "Join Cave of the Cure [Public]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandRestWait, Styx",
+      "Type": 0,
+      "Cmd": 3,
+      "Text": "Rest [Wait]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 2000,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 2000"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandWaypoint, Styx",
+      "Name": "gate",
+      "Position": {
+        "x": -13.7642355,
+        "y": 2.36234236,
+        "z": -30.1537647
+      },
+      "Teleport": false,
+      "Type": 1,
+      "Cmd": 1,
+      "Text": "Waypoint: gate [Walk]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandJoin, Styx",
+      "MapId": 186,
+      "RequestPrivateInstance": true,
+      "Type": 1,
+      "Cmd": 0,
+      "Text": "Join Deepclaw Caverns [Private]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKillAll, Styx",
+      "Teleport": true,
+      "Type": 0,
+      "Cmd": 1,
+      "Text": "Kill all monsters"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandRestWait, Styx",
+      "Type": 0,
+      "Cmd": 3,
+      "Text": "Rest [Wait]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandNextDungeon, Styx",
+      "Type": 1,
+      "Cmd": 3,
+      "Text": "Next dungeon [Walk]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKillAll, Styx",
+      "Teleport": true,
+      "Type": 0,
+      "Cmd": 1,
+      "Text": "Kill all monsters"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandRestWait, Styx",
+      "Type": 0,
+      "Cmd": 3,
+      "Text": "Rest [Wait]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandNextDungeon, Styx",
+      "Type": 1,
+      "Cmd": 3,
+      "Text": "Next dungeon [Walk]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKillAll, Styx",
+      "Teleport": true,
+      "Type": 0,
+      "Cmd": 1,
+      "Text": "Kill all monsters"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 2000,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 2000"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandNextDungeon, Styx",
+      "Type": 1,
+      "Cmd": 3,
+      "Text": "Next dungeon [Walk]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 1000,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 1000"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKillAll, Styx",
+      "Teleport": true,
+      "Type": 0,
+      "Cmd": 1,
+      "Text": "Kill all monsters"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 1500,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 1500"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKillAll, Styx",
+      "Teleport": true,
+      "Type": 0,
+      "Cmd": 1,
+      "Text": "Kill all monsters"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandRestWait, Styx",
+      "Type": 0,
+      "Cmd": 3,
+      "Text": "Rest [Wait]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKillAll, Styx",
+      "Teleport": true,
+      "Type": 0,
+      "Cmd": 1,
+      "Text": "Kill all monsters"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 2000,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 2000"
+    }
+  ],
+  "Quests": [],
+  "Loot": [
+    "Hunter's Stake",
+    "Fangs",
+    "Blood Fangs",
+    "hunters stake",
+    "Hunters Stake"
+  ],
+  "Spells": [
+    {
+      "Index": 0,
+      "Text": "0: Auto Attack"
+    },
+    {
+      "Index": 1,
+      "Text": "1: Sever"
+    },
+    {
+      "Index": 2,
+      "Text": "2: Crushing Blow"
+    },
+    {
+      "Index": 3,
+      "Text": "3: Whirlwind"
+    },
+    {
+      "Index": 4,
+      "Text": "4: Earthbreaker"
+    }
+  ],
+  "Relogin": false,
+  "Server": null,
+  "BotDelay": 1000
+}

@@ -1,0 +1,309 @@
+{
+  "Commands": [
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandJoin, Styx",
+      "MapId": 118,
+      "RequestPrivateInstance": true,
+      "Type": 1,
+      "Cmd": 0,
+      "Text": "Join Map: 118 [Private]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 2500,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 2500"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandStatement, Styx",
+      "Tag": "Map",
+      "Tag2": 0,
+      "Value1": "1",
+      "Loop": false,
+      "Type": 4,
+      "Cmd": 4,
+      "Text": "IF Map player count greater than 1"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandJoin, Styx",
+      "MapId": 1,
+      "RequestPrivateInstance": true,
+      "Type": 1,
+      "Cmd": 0,
+      "Text": "Join Map: 1 [Private]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 100,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 100"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandStop, Styx",
+      "Type": 4,
+      "Cmd": 2,
+      "Text": "Stop bot"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandEndStatement, Styx",
+      "Type": 4,
+      "Cmd": 5,
+      "Text": "EndIF"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandStatement, Styx",
+      "Tag": "Quest",
+      "Tag2": 3,
+      "Value1": "371",
+      "Loop": false,
+      "Type": 4,
+      "Cmd": 4,
+      "Text": "IF Quest is not accepted 371"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandWaypoint, Styx",
+      "Name": "AcceptWalk",
+      "Position": {
+        "x": -45.6202927,
+        "y": 4.97039127,
+        "z": -15.466506
+      },
+      "Teleport": false,
+      "Type": 1,
+      "Cmd": 1,
+      "Text": "Waypoint: AcceptWalk [Walk]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Quest.CommandQuestAccept, Styx",
+      "QuestId": 371,
+      "Type": 2,
+      "Cmd": 0,
+      "Text": "Accept quest: 371"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandEndStatement, Styx",
+      "Type": 4,
+      "Cmd": 5,
+      "Text": "EndIF"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandStatement, Styx",
+      "Tag": "Quest",
+      "Tag2": 2,
+      "Value1": "371",
+      "Loop": false,
+      "Type": 4,
+      "Cmd": 4,
+      "Text": "IF Quest is accepted 371"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandStatement, Styx",
+      "Tag": "Map",
+      "Tag2": 2,
+      "Value1": "4",
+      "Loop": false,
+      "Type": 4,
+      "Cmd": 4,
+      "Text": "IF Map monster count greater than 4"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandWaypoint, Styx",
+      "Name": "Bomb 1",
+      "Position": {
+        "x": -32.7816048,
+        "y": 5.17704773,
+        "z": -18.6522541
+      },
+      "Teleport": false,
+      "Type": 1,
+      "Cmd": 1,
+      "Text": "Waypoint: Bomb 1 [Walk]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandWaypoint, Styx",
+      "Name": "SpiderLure1",
+      "Position": {
+        "x": -23.5886421,
+        "y": 4.72351,
+        "z": -26.2162857
+      },
+      "Teleport": false,
+      "Type": 1,
+      "Cmd": 1,
+      "Text": "Waypoint: SpiderLure1 [Walk]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandWaypoint, Styx",
+      "Name": "Boom1",
+      "Position": {
+        "x": -33.37794,
+        "y": 5.13454247,
+        "z": -18.95801
+      },
+      "Teleport": false,
+      "Type": 1,
+      "Cmd": 1,
+      "Text": "Waypoint: Boom1 [Walk]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandUseMachine, Styx",
+      "Name": "Machine_Place_Power_Bomb (3)",
+      "Id": 48,
+      "Type": 1,
+      "Cmd": 6,
+      "Text": "Interact with Machine_Place_Power_Bomb (3)"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 500,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 500"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandWaypoint, Styx",
+      "Name": "SpiderLure2",
+      "Position": {
+        "x": -12.2892866,
+        "y": 4.00324,
+        "z": -39.1460838
+      },
+      "Teleport": false,
+      "Type": 1,
+      "Cmd": 1,
+      "Text": "Waypoint: SpiderLure2 [Walk]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandWaypoint, Styx",
+      "Name": "Boom2",
+      "Position": {
+        "x": -14.4522066,
+        "y": 4.396786,
+        "z": -33.1140442
+      },
+      "Teleport": false,
+      "Type": 1,
+      "Cmd": 1,
+      "Text": "Waypoint: Boom2 [Walk]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandUseMachine, Styx",
+      "Name": "Machine_Place_Power_Bomb (1)",
+      "Id": 50,
+      "Type": 1,
+      "Cmd": 6,
+      "Text": "Interact with Machine_Place_Power_Bomb (1)"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 500,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 500"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandWaypoint, Styx",
+      "Name": "reset1",
+      "Position": {
+        "x": -22.428896,
+        "y": 3.65349913,
+        "z": -32.2287941
+      },
+      "Teleport": false,
+      "Type": 1,
+      "Cmd": 1,
+      "Text": "Waypoint: reset1 [Walk]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandWaypoint, Styx",
+      "Name": "reset2",
+      "Position": {
+        "x": -33.293602,
+        "y": 5.148938,
+        "z": -18.8569031
+      },
+      "Teleport": false,
+      "Type": 1,
+      "Cmd": 1,
+      "Text": "Waypoint: reset2 [Walk]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandEndStatement, Styx",
+      "Type": 4,
+      "Cmd": 5,
+      "Text": "EndIF"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandStatement, Styx",
+      "Tag": "Quest",
+      "Tag2": 0,
+      "Value1": "371",
+      "Loop": false,
+      "Type": 4,
+      "Cmd": 4,
+      "Text": "IF Quest is complete 371"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandWaypoint, Styx",
+      "Name": "Restart",
+      "Position": {
+        "x": -42.866394,
+        "y": 5.125895,
+        "z": -16.1638222
+      },
+      "Teleport": false,
+      "Type": 1,
+      "Cmd": 1,
+      "Text": "Waypoint: Restart [Walk]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Quest.CommandQuestComplete, Styx",
+      "QuestId": 371,
+      "Type": 2,
+      "Cmd": 1,
+      "Text": "Complete quest: 371"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Item.CommandSell, Styx",
+      "Item": "Crystal",
+      "Quantity": 100,
+      "Type": 3,
+      "Cmd": 0,
+      "Text": "Sell Crystal x100"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 500,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 500"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandRestart, Styx",
+      "Type": 4,
+      "Cmd": 1,
+      "Text": "Restart bot"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandEndStatement, Styx",
+      "Type": 4,
+      "Cmd": 5,
+      "Text": "EndIF"
+    }
+  ],
+  "Quests": [],
+  "Loot": [
+    "*"
+  ],
+  "Spells": [
+    {
+      "Index": 0,
+      "Text": "0: Auto Attack"
+    }
+  ],
+  "Relogin": false,
+  "Server": null,
+  "BotDelay": 1000
+}

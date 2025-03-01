@@ -1,0 +1,320 @@
+{
+  "Commands": [
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandJoin, Styx",
+      "MapId": 48,
+      "RequestPrivateInstance": true,
+      "Type": 1,
+      "Cmd": 0,
+      "Text": "Join Map: 48 [Private]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 2000,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 2000"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandStatement, Styx",
+      "Tag": "Map",
+      "Tag2": 6,
+      "Value1": "Rare Tower Chest",
+      "Type": 4,
+      "Cmd": 4,
+      "Text": "IF Map contains monster Rare Tower Chest"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKill, Styx",
+      "Monster": "Rare Tower Chest",
+      "Teleport": true,
+      "Radius": 0.0,
+      "PlayerPos": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Amount": 1,
+      "Skip": false,
+      "Type": 0,
+      "Cmd": 2,
+      "Text": "Kill Rare Tower Chest x1 [Teleport]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 600,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 600"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandEndStatement, Styx",
+      "Type": 4,
+      "Cmd": 5,
+      "Text": "EndIF"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandStatement, Styx",
+      "Tag": "Map",
+      "Tag2": 6,
+      "Value1": "Common Tower Chest",
+      "Type": 4,
+      "Cmd": 4,
+      "Text": "IF Map contains monster Common Tower Chest"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKill, Styx",
+      "Monster": "Common Tower Chest",
+      "Teleport": true,
+      "Radius": 0.0,
+      "PlayerPos": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Amount": 1,
+      "Skip": false,
+      "Type": 0,
+      "Cmd": 2,
+      "Text": "Kill Common Tower Chest x1 [Teleport]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 600,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 600"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandEndStatement, Styx",
+      "Type": 4,
+      "Cmd": 5,
+      "Text": "EndIF"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandStatement, Styx",
+      "Tag": "Map",
+      "Tag2": 6,
+      "Value1": "Uncommon Tower Chest",
+      "Type": 4,
+      "Cmd": 4,
+      "Text": "IF Map contains monster Uncommon Tower Chest"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKill, Styx",
+      "Monster": "Uncommon Tower Chest",
+      "Teleport": true,
+      "Radius": 0.0,
+      "PlayerPos": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Amount": 1,
+      "Skip": false,
+      "Type": 0,
+      "Cmd": 2,
+      "Text": "Kill Uncommon Tower Chest x1 [Teleport]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 600,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 600"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandEndStatement, Styx",
+      "Type": 4,
+      "Cmd": 5,
+      "Text": "EndIF"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandStatement, Styx",
+      "Tag": "Item",
+      "Tag2": 1,
+      "Value1": "Soulborne Axe",
+      "Type": 4,
+      "Cmd": 4,
+      "Text": "IF Item Is in Inventory Soulborne Axe"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKillAll, Styx",
+      "Teleport": true,
+      "Skip": true,
+      "Type": 0,
+      "Cmd": 1,
+      "Text": "Kill All [Teleport]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 600,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 600"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandJoin, Styx",
+      "MapId": 1,
+      "RequestPrivateInstance": true,
+      "Type": 1,
+      "Cmd": 0,
+      "Text": "Join Battleon [Private]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 3000,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 3000"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandStop, Styx",
+      "Type": 4,
+      "Cmd": 2,
+      "Text": "Stop bot"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandEndStatement, Styx",
+      "Type": 4,
+      "Cmd": 5,
+      "Text": "EndIF"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandStatement, Styx",
+      "Tag": "Map",
+      "Tag2": 6,
+      "Value1": "Necroknight",
+      "Type": 4,
+      "Cmd": 4,
+      "Text": "IF Map contains monster Necroknight"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKillAll, Styx",
+      "Teleport": true,
+      "Skip": true,
+      "Type": 0,
+      "Cmd": 1,
+      "Text": "Kill All [Teleport]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandRestWait, Styx",
+      "Type": 0,
+      "Cmd": 3,
+      "Text": "Rest [Wait]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 8000,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 8000"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKillAll, Styx",
+      "Teleport": true,
+      "Skip": false,
+      "Type": 0,
+      "Cmd": 1,
+      "Text": "Kill All [Teleport]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 1000,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 1000"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandSendPack, Styx",
+      "Packet": "{\"args\":[\"skulltower\"],\"type\":9,\"cmd\":2}",
+      "Type": 4,
+      "Cmd": 3,
+      "Text": "Send Packet: {\"args\":[\"skulltower\"],\"type\":9,\"cmd\":2}"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 3000,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 3000"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandRestart, Styx",
+      "Type": 4,
+      "Cmd": 1,
+      "Text": "Restart bot"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandEndStatement, Styx",
+      "Type": 4,
+      "Cmd": 5,
+      "Text": "EndIF"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKillAll, Styx",
+      "Teleport": true,
+      "Skip": false,
+      "Type": 0,
+      "Cmd": 1,
+      "Text": "Kill All [Teleport]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandRestWait, Styx",
+      "Type": 0,
+      "Cmd": 3,
+      "Text": "Rest [Wait]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandNextDungeon, Styx",
+      "Teleport": true,
+      "Type": 1,
+      "Cmd": 3,
+      "Text": "Next dungeon [Teleport]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 3000,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 3000"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandRestart, Styx",
+      "Type": 4,
+      "Cmd": 1,
+      "Text": "Restart bot"
+    }
+  ],
+  "Quests": [],
+  "Loot": [
+    "Small Health Potion",
+    "Small Mana Potion",
+    "Soulborne Axe"
+  ],
+  "Spells": [
+    {
+      "Index": 0,
+      "Text": "0: Auto Attack"
+    },
+    {
+      "Index": 1,
+      "Text": "1: Shatterscale"
+    },
+    {
+      "Index": 2,
+      "Text": "2: Fang Breaker"
+    },
+    {
+      "Index": 3,
+      "Text": "3: Dragonlance"
+    },
+    {
+      "Index": 4,
+      "Text": "4: Final Descent"
+    }
+  ],
+  "Relogin": false,
+  "Server": null,
+  "BotDelay": 1000
+}

@@ -1,0 +1,119 @@
+{
+  "Commands": [
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandJoin, Styx",
+      "MapId": 134,
+      "RequestPrivateInstance": true,
+      "Type": 1,
+      "Cmd": 0,
+      "Text": "Join Random GGC [Private]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 3000,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 3000"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKillAll, Styx",
+      "Teleport": true,
+      "Skip": false,
+      "Type": 0,
+      "Cmd": 1,
+      "Text": "Kill all monsters"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandRestWait, Styx",
+      "Type": 0,
+      "Cmd": 3,
+      "Text": "Rest [Wait]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandNextDungeon, Styx",
+      "Teleport": true,
+      "Type": 1,
+      "Cmd": 3,
+      "Text": "Next dungeon [Teleport]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKillAll, Styx",
+      "Teleport": true,
+      "Skip": false,
+      "Type": 0,
+      "Cmd": 1,
+      "Text": "Kill all monsters"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandRestWait, Styx",
+      "Type": 0,
+      "Cmd": 3,
+      "Text": "Rest [Wait]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandNextDungeon, Styx",
+      "Teleport": true,
+      "Type": 1,
+      "Cmd": 3,
+      "Text": "Next dungeon [Teleport]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKillAll, Styx",
+      "Teleport": true,
+      "Skip": false,
+      "Type": 0,
+      "Cmd": 1,
+      "Text": "Kill all monsters"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandRestWait, Styx",
+      "Type": 0,
+      "Cmd": 3,
+      "Text": "Rest [Wait]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandSendPack, Styx",
+      "Packet": "{\"args\":[\"battleon\"],\"type\":9,\"cmd\":2}",
+      "Type": 4,
+      "Cmd": 3,
+      "Text": "Send Packet: {\"args\":[\"battleon\"],\"type\":9,\"cmd\":2}"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 3000,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 3000"
+    }
+  ],
+  "Quests": [],
+  "Loot": [
+    "Battle Gem",
+    "Battle Gem Shard"
+  ],
+  "Spells": [
+    {
+      "Index": 0,
+      "Text": "0: Auto Attack"
+    },
+    {
+      "Index": 1,
+      "Text": "1: Sever"
+    },
+    {
+      "Index": 2,
+      "Text": "2: Crushing Blow"
+    },
+    {
+      "Index": 3,
+      "Text": "3: Whirlwind"
+    },
+    {
+      "Index": 4,
+      "Text": "4: Earthbreaker"
+    }
+  ],
+  "Relogin": false,
+  "Server": null,
+  "BotDelay": 1000
+}

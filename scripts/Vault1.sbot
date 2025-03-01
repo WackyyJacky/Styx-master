@@ -1,0 +1,126 @@
+{
+  "Commands": [
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandJoin, Styx",
+      "MapId": 138,
+      "RequestPrivateInstance": true,
+      "Type": 1,
+      "Cmd": 0,
+      "Text": "Join Vault Security (1 Hero) [Private]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 1000,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 1000"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKillAll, Styx",
+      "Teleport": true,
+      "Type": 0,
+      "Cmd": 1,
+      "Text": "Kill all monsters"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandNextDungeon, Styx",
+      "Type": 1,
+      "Cmd": 3,
+      "Text": "Next dungeon [Teleport]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandRestWait, Styx",
+      "Type": 0,
+      "Cmd": 3,
+      "Text": "Rest [Wait]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKillAll, Styx",
+      "Teleport": true,
+      "Type": 0,
+      "Cmd": 1,
+      "Text": "Kill all monsters"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandNextDungeon, Styx",
+      "Type": 1,
+      "Cmd": 3,
+      "Text": "Next dungeon [Teleport]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandRestWait, Styx",
+      "Type": 0,
+      "Cmd": 3,
+      "Text": "Rest [Wait]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKillAll, Styx",
+      "Teleport": true,
+      "Type": 0,
+      "Cmd": 1,
+      "Text": "Kill all monsters"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandNextDungeon, Styx",
+      "Type": 1,
+      "Cmd": 3,
+      "Text": "Next dungeon [Teleport]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandRestWait, Styx",
+      "Type": 0,
+      "Cmd": 3,
+      "Text": "Rest [Wait]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKillAll, Styx",
+      "Teleport": false,
+      "Type": 0,
+      "Cmd": 1,
+      "Text": "Kill all monsters"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandNextDungeon, Styx",
+      "Type": 1,
+      "Cmd": 3,
+      "Text": "Next dungeon [Teleport]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandRestWait, Styx",
+      "Type": 0,
+      "Cmd": 3,
+      "Text": "Rest [Wait]"
+    }
+  ],
+  "Quests": [],
+  "Loot": [
+    "Small Health Potion",
+    "Security Badge",
+    "Peach Froot"
+  ],
+  "Spells": [
+    {
+      "Index": 0,
+      "Text": "0: Auto Attack"
+    },
+    {
+      "Index": 1,
+      "Text": "1: Sever"
+    },
+    {
+      "Index": 2,
+      "Text": "2: Crushing Blow"
+    },
+    {
+      "Index": 3,
+      "Text": "3: Whirlwind"
+    },
+    {
+      "Index": 4,
+      "Text": "4: Earthbreaker"
+    }
+  ],
+  "Relogin": false,
+  "Server": null,
+  "BotDelay": 1000
+}

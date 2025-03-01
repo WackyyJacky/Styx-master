@@ -1,0 +1,106 @@
+{
+  "Commands": [
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandJoin, Styx",
+      "MapId": 91,
+      "RequestPrivateInstance": false,
+      "Type": 1,
+      "Cmd": 0,
+      "Text": "Join Barrow Drop Challenge [Public]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 1000,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 1000"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandWaypoint, Styx",
+      "Name": "B_TP",
+      "Position": {
+        "x": -23.8589249,
+        "y": 0.631077766,
+        "z": 17.9767685
+      },
+      "Teleport": true,
+      "Type": 1,
+      "Cmd": 1,
+      "Text": "Waypoint: B_TP [Teleport]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKill, Styx",
+      "Monster": "Angered Acevorah",
+      "Teleport": false,
+      "Type": 0,
+      "Cmd": 2,
+      "Text": "Kill Angered Acevorah [Walk]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 500,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 500"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandWaypoint, Styx",
+      "Name": "B_TP_reset",
+      "Position": {
+        "x": -23.8589249,
+        "y": 0.631077766,
+        "z": 17.9767685
+      },
+      "Teleport": false,
+      "Type": 1,
+      "Cmd": 1,
+      "Text": "Waypoint: B_TP_reset [Walk]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandJoin, Styx",
+      "MapId": 1,
+      "RequestPrivateInstance": false,
+      "Type": 1,
+      "Cmd": 0,
+      "Text": "Join Battleon [Public]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 2000,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 2000"
+    }
+  ],
+  "Quests": [],
+  "Loot": [
+    "Vorah Dagger",
+    "Tick Body",
+    "Acevorah Eye"
+  ],
+  "Spells": [
+    {
+      "Index": 0,
+      "Text": "0: Auto Attack"
+    },
+    {
+      "Index": 4,
+      "Text": "4: Earthbreaker"
+    },
+    {
+      "Index": 3,
+      "Text": "3: Whirlwind"
+    },
+    {
+      "Index": 2,
+      "Text": "2: Crushing Blow"
+    },
+    {
+      "Index": 1,
+      "Text": "1: Sever"
+    }
+  ],
+  "Relogin": false,
+  "Server": null,
+  "BotDelay": 1000
+}

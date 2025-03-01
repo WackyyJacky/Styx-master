@@ -1,0 +1,92 @@
+{
+  "Commands": [
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKill, Styx",
+      "Monster": "Drooster",
+      "Teleport": false,
+      "Radius": 0.0,
+      "PlayerPos": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "Amount": 0,
+      "Skip": false,
+      "Type": 0,
+      "Cmd": 2,
+      "Text": "Kill Drooster [Walk]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 2000,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 2000"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandStatement, Styx",
+      "Tag": "Item",
+      "Tag2": 1,
+      "Value1": "Midas' Curse",
+      "Type": 4,
+      "Cmd": 4,
+      "Text": "IF Item Is in Inventory Midas' Curse"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Map.CommandJoin, Styx",
+      "MapId": 129,
+      "RequestPrivateInstance": true,
+      "Type": 1,
+      "Cmd": 0,
+      "Text": "Join Battleon Bank [Private]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 3000,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 3000"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandStop, Styx",
+      "Type": 4,
+      "Cmd": 2,
+      "Text": "Stop bot"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandEndStatement, Styx",
+      "Type": 4,
+      "Cmd": 5,
+      "Text": "EndIF"
+    }
+  ],
+  "Quests": [],
+  "Loot": [
+    "Midas' Curse"
+  ],
+  "Spells": [
+    {
+      "Index": 0,
+      "Text": "0: Auto Attack"
+    },
+    {
+      "Index": 1,
+      "Text": "1: Sever"
+    },
+    {
+      "Index": 2,
+      "Text": "2: Crushing Blow"
+    },
+    {
+      "Index": 3,
+      "Text": "3: Whirlwind"
+    },
+    {
+      "Index": 4,
+      "Text": "4: Earthbreaker"
+    }
+  ],
+  "Relogin": false,
+  "Server": null,
+  "BotDelay": 2000
+}

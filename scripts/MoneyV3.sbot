@@ -1,0 +1,336 @@
+{
+  "Commands": [
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKill, Styx",
+      "Monster": "Steelfang",
+      "Teleport": false,
+      "Type": 0,
+      "Cmd": 2,
+      "Text": "Kill Steelfang [Walk]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 30500,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 30500"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKill, Styx",
+      "Monster": "Steelfang",
+      "Teleport": false,
+      "Type": 0,
+      "Cmd": 2,
+      "Text": "Kill Steelfang [Walk]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 31200,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 31200"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKill, Styx",
+      "Monster": "Steelfang",
+      "Teleport": false,
+      "Type": 0,
+      "Cmd": 2,
+      "Text": "Kill Steelfang [Walk]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 30150,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 30150"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKill, Styx",
+      "Monster": "Steelfang",
+      "Teleport": false,
+      "Type": 0,
+      "Cmd": 2,
+      "Text": "Kill Steelfang [Walk]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 31050,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 31050"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKill, Styx",
+      "Monster": "Steelfang",
+      "Teleport": false,
+      "Type": 0,
+      "Cmd": 2,
+      "Text": "Kill Steelfang [Walk]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 31050,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 31050"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKill, Styx",
+      "Monster": "Steelfang",
+      "Teleport": false,
+      "Type": 0,
+      "Cmd": 2,
+      "Text": "Kill Steelfang [Walk]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 30550,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 30550"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKill, Styx",
+      "Monster": "Steelfang",
+      "Teleport": false,
+      "Type": 0,
+      "Cmd": 2,
+      "Text": "Kill Steelfang [Walk]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 30500,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 30500"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKill, Styx",
+      "Monster": "Steelfang",
+      "Teleport": false,
+      "Type": 0,
+      "Cmd": 2,
+      "Text": "Kill Steelfang [Walk]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 30300,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 30300"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKill, Styx",
+      "Monster": "Steelfang",
+      "Teleport": false,
+      "Type": 0,
+      "Cmd": 2,
+      "Text": "Kill Steelfang [Walk]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 1000,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 1000"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Item.CommandSell, Styx",
+      "Item": "Dull Scale",
+      "Quantity": 100,
+      "Type": 3,
+      "Cmd": 0,
+      "Text": "Sell Dull Scale x100"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Item.CommandSell, Styx",
+      "Item": "Dwarf Iron",
+      "Quantity": 100,
+      "Type": 3,
+      "Cmd": 0,
+      "Text": "Sell Dwarf Iron x100"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Item.CommandSell, Styx",
+      "Item": "Obsidian Ore",
+      "Quantity": 100,
+      "Type": 3,
+      "Cmd": 0,
+      "Text": "Sell Obsidian Ore x100"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Item.CommandSell, Styx",
+      "Item": "Lava Core",
+      "Quantity": 25,
+      "Type": 3,
+      "Cmd": 0,
+      "Text": "Sell Lava Core x25"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 1000,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 1000"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Item.CommandSell, Styx",
+      "Item": "Excavator",
+      "Quantity": 25,
+      "Type": 3,
+      "Cmd": 0,
+      "Text": "Sell Excavator x25"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Item.CommandSell, Styx",
+      "Item": "Excavator",
+      "Quantity": 25,
+      "Type": 3,
+      "Cmd": 0,
+      "Text": "Sell Excavator x25"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Item.CommandSell, Styx",
+      "Item": "Excavator",
+      "Quantity": 25,
+      "Type": 3,
+      "Cmd": 0,
+      "Text": "Sell Excavator x25"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 1000,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 1000"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Item.CommandSell, Styx",
+      "Item": "Excavator",
+      "Quantity": 25,
+      "Type": 3,
+      "Cmd": 0,
+      "Text": "Sell Excavator x25"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Item.CommandSell, Styx",
+      "Item": "Excavator",
+      "Quantity": 25,
+      "Type": 3,
+      "Cmd": 0,
+      "Text": "Sell Excavator x25"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Item.CommandSell, Styx",
+      "Item": "Excavator",
+      "Quantity": 25,
+      "Type": 3,
+      "Cmd": 0,
+      "Text": "Sell Excavator x25"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Item.CommandSell, Styx",
+      "Item": "Excavator",
+      "Quantity": 25,
+      "Type": 3,
+      "Cmd": 0,
+      "Text": "Sell Excavator x25"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 1000,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 1000"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Item.CommandSell, Styx",
+      "Item": "Dragon Crest",
+      "Quantity": 25,
+      "Type": 3,
+      "Cmd": 0,
+      "Text": "Sell Dragon Crest x25"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Item.CommandSell, Styx",
+      "Item": "Flame Essence",
+      "Quantity": 25,
+      "Type": 3,
+      "Cmd": 0,
+      "Text": "Sell Flame Essence x25"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 1000,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 1000"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKill, Styx",
+      "Monster": "Steelfang",
+      "Teleport": false,
+      "Type": 0,
+      "Cmd": 2,
+      "Text": "Kill Steelfang [Walk]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 30856,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 30856"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Combat.CommandKill, Styx",
+      "Monster": "Steelfang",
+      "Teleport": false,
+      "Type": 0,
+      "Cmd": 2,
+      "Text": "Kill Steelfang [Walk]"
+    },
+    {
+      "$type": "Styx.Botting.Commands.Misc.CommandDelay, Styx",
+      "Duration": 30856,
+      "Type": 4,
+      "Cmd": 0,
+      "Text": "Delay: 30856"
+    }
+  ],
+  "Quests": [],
+  "Loot": [
+    "Excavator",
+    "Lava Core",
+    "Dragon Crest",
+    "Flame Essence",
+    "Dull Scale",
+    "Dwarf Iron",
+    "Obsidian Ore"
+  ],
+  "Spells": [
+    {
+      "Index": 0,
+      "Text": "0: Auto Attack"
+    },
+    {
+      "Index": 1,
+      "Text": "1: Sever"
+    },
+    {
+      "Index": 2,
+      "Text": "2: Crushing Blow"
+    },
+    {
+      "Index": 3,
+      "Text": "3: Whirlwind"
+    },
+    {
+      "Index": 4,
+      "Text": "4: Earthbreaker"
+    }
+  ],
+  "Relogin": true,
+  "Server": "Blue Dragon",
+  "BotDelay": 1000
+}
